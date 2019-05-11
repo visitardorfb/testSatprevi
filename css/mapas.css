@@ -1,0 +1,70 @@
+#nic-map {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+   
+  }
+
+  path:hover,
+  circle:hover,
+  polygon:hover {
+       fill: #028fcc;
+    cursor: pointer;
+  }
+  
+  #path67 {
+    fill: none;
+    
+    cursor: default;
+  }
+  
+  #info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: #212121;
+    color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: arial;
+  }
+
+  .hide{
+      display:none;
+  }
+
+  .fondo{
+      fill:"#88a4bc"!important;
+      stroke:"#ffffff"!important;
+  }
+
+  .casos-criticos{
+    fill: #f93b3b;
+  }
+
+  path.casos-criticos:hover,polygon.casos-criticos:hover{
+    fill:#ff0000;
+  }
+
+  .casos-leves{
+    fill: #44bd44;
+  }
+
+  path.casos-leves:hover,polygon.casos-leves:hover{
+    fill:#008000;
+  }
+  
+  .casos-medios{
+    fill:#f5b747;
+  }
+
+  path.casos-medios:hover,polygon.casos-medios:hover{
+    fill:#ffa500;
+  }
